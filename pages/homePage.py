@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+import selenium.webdriver.chrome
 import pytest
 from selenium import webdriver
 

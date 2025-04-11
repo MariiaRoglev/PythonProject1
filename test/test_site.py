@@ -9,6 +9,7 @@ from selenium import webdriver
 from conftest import driver
 
 
+
 def test_open_s6(driver):
     homepage = homePage(driver)
     homepage.open()
