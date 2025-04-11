@@ -23,6 +23,9 @@ class homePage:
         monitors = self.driver.find_elements(By.CSS_SELECTOR,  '.card')
         assert len(monitors) == count
 
+    def clickSignUp(self):
+        signUp=self.driver.find_element(By.ID, 'signin2')
+        signUp.click()
 
 
 
